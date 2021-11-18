@@ -23,11 +23,21 @@
     <header class="header">
         <div class="container header-cont">
             <a href="./index.html" class="header-cont__title header-cont__logo--image">Web<span class="header-cont__logo--text">Studio</span></a>
-            <button class="header-mobile-menu">
-                <svg class="header-mobile-menu__icon">
-                    <use href="./images/sprites.svg#icon-mobile-menu"></use>
+
+            <!-- Mobile-Menu -->
+            <button class="btn-mobile-menu__open" data-menu-open>
+                <svg class="btn-mobile-menu__icon-open">
+                    <use href="./images/sprites.svg#icon-mobile-menu-open"></use>
                 </svg>
             </button>
+            <div class="mobile-menu" data-menu>
+                <button class="btn-mobile-menu__closed" data-menu-close>
+                    <svg class="btn-mobile-menu__icon-closed" width="40" height="40">
+                        <use href="./images/sprites.svg#icon-mobile-menu-closed"></use>
+                    </svg>
+                </button>
+            </div>
+            <!-- END Mobile Menu -->
             <nav class="header-nav">
                 <ul class="header-nav__list list ">
                     <li class="header-nav__item">
@@ -60,6 +70,7 @@
     </header>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
