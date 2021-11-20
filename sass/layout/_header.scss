@@ -78,6 +78,10 @@
   pointer-events: none;
   background-color: #ffffff;
   padding: 48px 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .mobile-menu.is-open {
   opacity: 1;
@@ -105,6 +109,9 @@
 }
 .mobile-menu__contact-link-tel {
   color: var(--accent-color);
+  @media screen and (max-width: 479px) {
+    font-size: 8vw;
+  }
 }
 .mobile-menu__contact-link-mail {
   color: var(--secondary-text-color);
@@ -133,6 +140,9 @@
   &:not(:first-child) {
     padding-left: 10px;
   }
+  @media screen and (max-width: 479px) {
+    font-size: 4vw;
+  }
 }
 .mobile-menu__social-link {
   color: var(--accent-color);
@@ -154,7 +164,7 @@
 
 .header-nav__list {
   display: flex;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     flex-direction: column;
   }
 }
