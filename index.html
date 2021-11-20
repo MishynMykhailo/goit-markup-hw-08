@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <!--Хедер-меню-->
+    <!----------------------------------------------------------------------------------HEADER------------------------------------------------------------>
     <header class="header">
         <div class="container header-cont">
             <a href="./index.html" class="header-cont__title header-cont__logo--image">Web<span class="header-cont__logo--text">Studio</span></a>
@@ -110,13 +110,13 @@
         </div>
     </header>
     <main>
-        <!--Первая Центральная секция-->
+        <!----------------------------------------------------------HERO-SECTION-------------------------------------------------------------------->
         <section class="hero-section">
             <div class="container">
                 <h1 class="hero-section__text hero-section__container">
                     Эффективные решения для вашего бизнеса
                 </h1>
-                <!--МОДЕЛКА/ОКНО вылезающее-->
+                <!---------------------------MODAL-FORM--------------------------------------->
                 <button type="button" class="hero-section__btn-modal" data-modal-open>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
@@ -166,6 +166,281 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!------------------------------------------------------------SECTION-BENEFITS-------------------------------------------------------------------------->>
+        <section class="section-benefits">
+            <div class="container">
+                <ul class="benefits__list list">
+                    <li class="benefits__item icon-antenna">
+                        <h3 class="benefits__title">Внимание к деталям</h3>
+                        <p class="benefits__description">Идейные соображения, а также начало повседневной работы по
+                            формированию
+                            позиции.</p>
+                    </li>
+                    <li class="benefits__item icon-clock">
+                        <h3 class="benefits__title">Пунктуальность</h3>
+                        <p class="benefits__description">Задача организации, в особенности же рамки и место обучения кадров
+                            влечет за
+                            собой.</p>
+                    </li>
+                    <li class="benefits__item icon-diagram">
+                        <h3 class="benefits__title">Планирование</h3>
+                        <p class="benefits__description">Равным образом консультация с широким активом в значительной
+                            степени
+                            обуславливает.</p>
+                    </li>
+                    <li class="benefits__item icon-astronaut">
+                        <h3 class="benefits__title">Современные технологии</h3>
+                        <p class="benefits__description">Значимость этих проблем настолько очевидна, что реализация плановых
+                            заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!----------------------------------------------------SECTION-DOING-------------------------------------------------->
+        <section class="section-doing">
+            <div class="container">
+                <h2 class="doing__title">Чем мы занимаемся</h2>
+                <ul class="doing__list list">
+                    <li class="doing__item">
+                        <div class="doing-card">
+                            <img src="./images/Studio/box1.jpg" alt="Картинка 1" width="370" height="294">
+                            <div class="doing-card__position-text">
+                                <p class="doing-card__text">Десктопные приложения</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="doing__item">
+                        <div class="doing-card">
+                            <img src="./images/Studio/box2.jpg" alt="Картинка 2" width="370" height="294">
+                            <div class="doing-card__position-text">
+                                <p class="doing-card__text">Мобильные приложения</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="doing__item">
+                        <div class="doing-card">
+                            <img src="./images/Studio/box3.jpg" alt="Картинка 3" width="370" height="294">
+                            <div class="doing-card__position-text">
+                                <p class="doing-card__text">Дизайнерские решения</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!----------------------------------------------------SECTION-TEAM--------------------------------------------------------------------->
+        <section class="section-team">
+            <div class="container">
+                <h2 class="team__title">Наша команда</h2>
+                <ul class="team__list list ">
+                    <li class="team__item team__item-card">
+                        <picture>
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-1-desktop.webp 1x,
+                                                        ./images/Studio/team/team-1-desktop@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-1-desktop.jpg 1x,
+                                                        ./images/Studio/team/team-1-desktop@2x.jpg 2x" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-1-tablet.webp 1x,
+                                                        ./images/Studio/team/team-1-tablet@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-1-tablet.jpg 1x,
+                                                        ./images/Studio/team/team-1-tablet@2x.jpg 2x" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-1.webp 1x,
+                                                        ./images/Studio/team/team-1@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-1.jpg 1x,
+                                                        ./images/Studio/team/team-1@2x.jpg 2x" />
+                            <img src="#" alt="Игорь Демьяненко">
+                        </picture>
+                        <div class="team-container">
+                            <h3 class="team-container__title">Игорь Демьяненко</h3>
+                            <p class="team-container__description">Product Designer</p>
+                            <ul class="team-container__list">
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__item item-team-container">
+                        <picture>
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-2-desktop.webp 1x,
+                        ./images/Studio/team/team-2-desktop@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-2-desktop.jpg 1x,
+                        ./images/Studio/team/team-2-desktop@2x.jpg 2x" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-2-tablet.webp 1x,
+                        ./images/Studio/team/team-2-tablet@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-2-tablet.jpg 1x,
+                        ./images/Studio/team/team-2-tablet@2x.jpg 2x" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-2.webp 1x,
+                        ./images/Studio/team/team-2@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-2.jpg 1x,
+                        ./images/Studio/team/team-2@2x.jpg 2x" />
+                            <img src="#" alt="Ольга Репина">
+                        </picture>
+                        <div class="team-container">
+                            <h3 class="team-container__title">Ольга Репина</h3>
+                            <p class="team-container__description">Frontend Developer</p>
+                            <ul class="team-container__list">
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__item item-team-container">
+                        <picture>
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-3-desktop.webp 1x,
+                                                ./images/Studio/team/team-3-desktop@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-3-desktop.jpg 1x,
+                                                ./images/Studio/team/team-3-desktop@2x.jpg 2x" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-3-tablet.webp 1x,
+                                                ./images/Studio/team/team-3-tablet@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-3-tablet.jpg 1x,
+                                                ./images/Studio/team/team-3-tablet@2x.jpg 2x" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-3.webp 1x,
+                                                ./images/Studio/team/team-3@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-3.jpg 1x,
+                                                ./images/Studio/team/team-3@2x.jpg 2x" />
+                            <img src="#" alt="Николай Тарасов">
+                        </picture>
+                        <div class="team-container">
+                            <h3 class="team-container__title">Николай Тарасов</h3>
+                            <p class="team-container__description">Marketing</p>
+                            <ul class="team-container__list">
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="team__item item-team-container">
+                        <picture>
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-4-desktop.webp 1x,
+                                                ./images/Studio/team/team-4-desktop@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:1200px)" srcset="./images/Studio/team/team-4-desktop.jpg 1x,
+                                                ./images/Studio/team/team-4-desktop@2x.jpg 2x" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-4-tablet.webp 1x,
+                                                ./images/Studio/team/team-4-tablet@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:768px)" srcset="./images/Studio/team/team-4-tablet.jpg 1x,
+                                                ./images/Studio/team/team-4-tablet@2x.jpg 2x" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-4.webp 1x,
+                                                ./images/Studio/team/team-4@2x.webp 2x" type="image/webp" />
+                            <source media="(min-width:320px)" srcset="./images/Studio/team/team-4.jpg 1x,
+                                                ./images/Studio/team/team-4@2x.jpg 2x" />
+                            <img src="#" alt="Николай Тарасов">
+                        </picture>
+                        <div class="team-container">
+                            <h3 class="team-container__title">Михаил Ермаков</h3>
+                            <p class="team-container__description">UI Designer</p>
+                            <ul class="team-container__list">
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-container__item">
+                                    <a href="" target="_blank" class="team-container__link">
+                                        <svg class="team-container__icon" width="20" height="20">
+                                            <use href="./images/sprites.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
