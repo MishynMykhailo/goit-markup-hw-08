@@ -20,6 +20,9 @@
   }
   @media screen and (min-width: 768px) {
     width: 354px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   @media screen and (min-width: 1200px) {
     width: 270px;
@@ -33,9 +36,6 @@
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-  }
-  &:not(:last-child) {
-    margin-right: 30px;
   }
 }
 
