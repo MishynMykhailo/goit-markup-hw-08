@@ -4,14 +4,16 @@
 }
 .modal-form__title {
   margin-bottom: 12px;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
   text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+  @media screen and (min-width: 1200px) {
+    line-height: 1.15;
+  }
 }
 .modal-form__field {
   display: flex;
@@ -100,8 +102,12 @@
 .modal-form__privacy {
   align-self: center;
   margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
