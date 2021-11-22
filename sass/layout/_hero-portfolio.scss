@@ -1,12 +1,26 @@
 .hero-section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .filter-btn__list {
   display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) and(max-width: 1200px) {
+    display: flex;
+    margin-bottom: 14px;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 34px;
+    justify-content: center;
+  }
 }
 .folter-btn__item:not(:last-child) {
   margin-right: 8px;
@@ -25,6 +39,10 @@
   height: 38px;
   border-radius: 4px;
   display: inline-block;
+  padding: 6px 22px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    margin-bottom: 15px;
+  }
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
