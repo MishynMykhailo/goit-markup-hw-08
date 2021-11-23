@@ -11,7 +11,7 @@
   margin-right: auto;
   margin-left: auto;
   height: 100%;
-  max-width: 480px;
+  max-width: 768px;
 
   background-image: url("../images/Studio/hero/hero.jpg");
   background-position: center;
@@ -20,20 +20,35 @@
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url("../images/Studio/hero/hero@2x.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Studio/hero/hero@2x.jpg");
   }
 
   @media screen and(min-width:768px) {
-    background-image: url("../images/Studio/hero/hero-tablet.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Studio/hero/hero-tablet.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 768px;
+    max-width: 1200px;
 
     @media screen and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("../images/Studio/hero/hero-tablet@2x.jpg");
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/Studio/hero/hero-tablet@2x.jpg");
     }
   }
 
@@ -56,7 +71,12 @@
     @media screen and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url("../images/Studio/hero/hero-desktop@2x.jpg");
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/Studio/hero/hero-desktop@2x.jpg");
     }
   }
 }
